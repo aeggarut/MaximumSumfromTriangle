@@ -1,4 +1,4 @@
-# MaximumSumfromTriangle
+# Maximum Sum from Triangle
 To calculate the maximum total sum that is calculated from triangle.
 
 According to the above purpose, there are two ways to calculate, First choice is calculating through every possible paths that is taking time in case of big triangle (e.g. 100 rows up+). Second choice, which I adopted in this script, is calculating from bottom up.
