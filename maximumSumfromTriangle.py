@@ -31,12 +31,10 @@ def fileToTriangle(filename):
 
 def calculateMaxPath(triangle,showRoute):
     
-    # iterate each element in traingle from the lower row to upper row 
-    # to identify its lower adjacent element that contains the maximum number.
-    # then add the maximum number to it
-    # after loop is done, the top left element contains the maximum total sum.
- 
+   
+    
     if(showRoute):
+        #try brute force to discover optimal route
         allroute=[]
         sumInEachRoute=[]
         for decisions in product((0,1), repeat = len(triangle)-1):
@@ -56,6 +54,10 @@ def calculateMaxPath(triangle,showRoute):
         return max(sumInEachRoute)
 
     else:    
+         # iterate each element in traingle from the lower row to upper row 
+        # to identify its lower adjacent element that contains the maximum number.
+        # then add the maximum number to it
+        # after loop is done, the top left element contains the maximum total sum.
         for row in range((len(triangle)-2), -1, -1): 
             for col in range(row+1): 
     
