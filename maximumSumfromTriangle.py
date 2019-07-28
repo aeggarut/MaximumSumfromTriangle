@@ -1,6 +1,6 @@
 # The purpose of this script is to calculate the maximum total sum that is calculated from optimal path.
 
-# The input of this software is sysmetrical triangle that has the same sizes of width and height.
+# The input of this software is symmetrical triangle that has the same sizes of width and height.
 # The output is the maximum total sum.
 
 
