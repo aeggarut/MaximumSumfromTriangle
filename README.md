@@ -7,6 +7,7 @@ Second choice is calculating from bottom up. Instead of calculating from the top
 
 This script adopt both methods to calculate maximum total sum. In case that user want to see optimal path, first method is chosen. On the other hand, second method is chosen if user want to obtain only maximum total sum value of triangle.
 
+## How to run the script?<br />
 > **Run: Python maximumSumfromTriangle.py <br />** 
 
 <br />Script will show maximum sum values from three triangle, first value from example triangle and remaining values from triangle1.txt and triangle2.txt, respectively.
